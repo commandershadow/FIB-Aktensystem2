@@ -1,0 +1,38 @@
+Changelog 06.10.2017 15:09 Uhr
+
+[CODE- VERBESSERUNGEN]
+- Funktion zum Anzeigen der Telefonnummer eingefügt (@Onyx) und im Code verwendet. (@Scarlet)
+
+[ÄNDERUNGEN]
+- Es werden in der Fallaktenliste der abgeschlossenen Fallakten nur noch die letzten 5 Angezeigt.
+- Sicherheitsabfrage beim löschen von Bürgern, Gruppierungen, Fraktionen, Unternehmen
+
+[FEHLER BEHOBEN]
+- Fallakten, die einem nicht zugewiesen wurden, werden nun nicht mehr angezeigt.
+- Bei Abgeschlossenen Fallakten wurden die Agents nicht richtig angezeigt.
+
+[NEU]
+- Status vom Bürger (Lebend , TOT, Vermisst)
+- Totenliste
+
+08.10.2017
+
+[Neuerungen]
+- Agents unter Rang 4 haben nun auf die zugewiesenen Fallakten Zugriff.
+- Agents können nur von Rang 7 oder höher von Fällen abgezogen werden
+
+Changelog 14.10.2017
+[NEU]
+ - Allgemeine LOG-Funktion in der Datenbank [Einsehbar ab Rang 7]
+ - Änderungen werden gespeichert
+ - Eintragungen werden gespeichert
+ - Löschungen werden gespeichert
+
+[ÄNDERUNG]
+ - Überflüssige Datenbankabfragen entfernt
+ - Codeoptimierungen
+ 
+Changelog 18.10.2017
+[ÄNDERUNG in Fallakten]
+- Bilder werden nun als Vorschau angezeigt und können auf Klick vergrößert werden (!!!NUR BEI NEUEN BILDERN!!!)
+- Texteditor bei Fallakten hinzugefügt

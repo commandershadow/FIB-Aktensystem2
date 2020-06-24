@@ -1,0 +1,18 @@
+#main table.fallakten h1, 
+#main table.fallakten h2, 
+#main table.fallakten h3, 
+#main table.fallakten h4, 
+#main table.fallakten h5, 
+#main table.fallakten h6 {
+  font-size: initial;
+  line-height: initial;
+  font-weight: bold;
+}
+
+table.fallakten p {
+  margin-bottom: 10px;
+}
+table.fallakten ul {
+  list-style-type: initial;
+  padding: 0 0 0 20px;
+}

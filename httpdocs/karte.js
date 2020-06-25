@@ -128,10 +128,10 @@ function addPointOnMap(data,index) {
 			info.innerHTML += ' | <a href="javascript:deletePoint(' + data.id + ')">L&ouml;schen</a>';
 		if(data.image != 'null') {
 			info.innerHTML += '<img src="' + data.image + '" alt="BILD" style="width:460px">';
-			if(mapdata.rang >= 6)
+			if(mapdata.rang >= 4)
 				info.innerHTML += '<br><a href="home.php?p=karte&f=delImg&id=' + data.id + '">Bildverknüpfung löschen</a>';
 		} else {
-			if(mapdata.rang >= 6)
+			if(mapdata.rang >= 4)
 				info.innerHTML += '<br><a href="home.php?p=karte&f=addImg&id=' + data.id + '">Bildverknüpfung hinzufügen</a>';
 		}
 	} else {
